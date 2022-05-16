@@ -27,15 +27,18 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Language Servers
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 let g:coc_global_extensions = [
 	\ 'coc-json',
 	\ 'coc-html',
 	\ 'coc-css',
 	\ 'coc-tsserver',
-	\ 'coc-pyright']
+	\ 'coc-pyright',
+	\ 'coc-prettier']
 
 
 " Makes coc-prettier globally available via :Prettier
