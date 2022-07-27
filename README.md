@@ -17,6 +17,8 @@ curl -fLo ~/.vim/coc-settings.json --create-dirs \
     https://raw.githubusercontent.com/Paguiar735/jarvis-does-vim/main/coc-settings.json
 ```
 
+PS: Open up `~/.vimrc` and `~/.vim/coc-settings.json` in your favorite text editor and remove the plugins that you won't use. It's important to notice that I need vim-go, and it takes several minutes to install, whereas all the other plugins' installation time combined just take a couple of seconds.  
+
 03 - Open up Vim in visual mode to install the plugins automatically
 
 ```
