@@ -1,37 +1,42 @@
-# jarvis-does-vim
+<h1 align="center"><a href="https://paguiar.link/clear-cut-vim-setup">Clear-Cut Vim Setup</a></h1>
 
-(Readme Draft)
+<p align="center">
+    <br>
+  <a href="https://github.com/vim/vim">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850" width="100px" height="100px"/>
+  </a>
+  <br><br>
+    Ready-to-go Vim Configuration that doesn’t lock you in
+  <br>
+</p>
 
-01 - Install vim-plug
+<br>
 
-```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
+## Quickstart
 
-02 - Download recommended settings 
-
-```
-curl https://raw.githubusercontent.com/Paguiar735/jarvis-does-vim/main/.vimrc -O
-curl -fLo ~/.vim/coc-settings.json --create-dirs \
-    https://raw.githubusercontent.com/Paguiar735/jarvis-does-vim/main/coc-settings.json
-```
-
-PS: Open up `~/.vimrc` and `~/.vim/coc-settings.json` in your favorite text editor and remove the plugins that you won't use. It's important to notice that I need vim-go, and it takes several minutes to install, whereas all the other plugins' installation time combined just take a couple of seconds.  
-
-03 - Open up Vim in visual mode to install the plugins automatically
+Have you just gotten your hands on a foreign terminal and you don’t want to spend time making Vim easier to work with? Just run the following command and you’re good to go!
 
 ```
-vim
+TODO: add one-click install code
 ```
 
-04 - If that doesn't work, run the following inside Vim's visual mode
+TODO: add gif of the end result
 
-```
-:PlugInstall
-```
+<br>
 
-## TODO
+Alternatively, you can always run the installation steps from the installation file (install.sh) line by line.
 
-- Add a GIF / Illustration of the end result
-- Create a dockerfile
+## This Vim configuration includes:
+
+1.  [**vim-airline**](https://github.com/vim-airline/vim-airline): Status bar with custom color scheme
+2.  [**vim-prettier**](https://github.com/prettier/vim-prettier): format your code on the go
+3.  [**delimitMate**](https://github.com/Raimondi/delimitMate): insert mode auto-completion for quotes, parens, brackets, etc.
+4.  [**coc-vim**](https://github.com/neoclide/coc.nvim): code completion tool with language server extensions for JSON and YAML
+
+## Project Goal
+
+As you have gathered, the goal of this project is to bootstrap a minimalistic yet usable Vim configuration that won’t become ineffectual and bring you back to square one in case this project reaches the end of its life.
+
+Clear-cut Vim Setup only installs a well-known plugin manager, vim-plug, and downloads your average Vim configuration file with pre-written settings you otherwise would have to write there yourself.
+
+In short, there’s magic under the hood.
