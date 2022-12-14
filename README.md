@@ -2,8 +2,8 @@
 
 <p align="center">
     <br>
-  <a href="https://github.com/vim/vim">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850" width="100px" height="100px"/>
+  <a href="https://pixabay.com/vectors/vim-text-editor-apps-icon-theme-27718">
+    <img src="https://cdn.pixabay.com/photo/2012/04/11/11/53/vim-27718_960_720.png" width="100px" height="100px"/>
   </a>
   <br><br>
     Ready-to-go Vim Configuration that doesn’t lock you in
