@@ -20,7 +20,11 @@ Have you just gotten your hands on a foreign terminal and you don’t want to sp
 sh <(curl -s https://raw.githubusercontent.com/Paguiar735/clear-cut-vim-setup/main/install.sh)
 ```
 
-TODO: add gif of the end result
+<p align="center">
+  <br>
+    <img src="./demo.gif"/>
+  <br>
+</p>
 
 <br>
 
