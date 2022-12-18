@@ -17,7 +17,7 @@
 Have you just gotten your hands on a foreign terminal and you don’t want to spend time making Vim easier to work with? Just run the following command and you’re good to go!
 
 ```
-TODO: add one-click install code
+bash <(curl -s https://raw.githubusercontent.com/Paguiar735/clear-cut-vim-setup/main/install.sh)
 ```
 
 TODO: add gif of the end result
