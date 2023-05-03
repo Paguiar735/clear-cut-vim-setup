@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://paguiar.link/clear-cut-vim-setup">Clear-Cut Vim Setup</a></h1>
+<h1 align="center"><a href="https://github.com/codespearhead/clear-cut-vim-setup">Clear-Cut Vim Setup</a></h1>
 
 <p align="center">
     <br>
